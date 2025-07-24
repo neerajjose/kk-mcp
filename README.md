@@ -1,6 +1,6 @@
 # KodeKloud MCP Server Examples
 
-This repository contains a collection of example Model Context Protocol (MCP) servers, each demonstrating different integrations and use cases for the MCP standard. These servers are designed for educational purposes as part of a course, and can be used as templates or references for building your own MCP-compatible tools.
+This repository contains a collection of example Model Context Protocol (MCP) servers, each demonstrating different integrations and use cases for the MCP standard. These servers are designed for educational purposes as part of the course "MCP for beginners", on [KodeKloud](https://www.kodekloud.com) and can be used as templates or references for building your own MCP-compatible tools.
 
 ## Table of Contents
 
