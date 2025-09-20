@@ -126,3 +126,12 @@ The server validates inputs and returns appropriate errors:
 - Non-integer inputs: "Both arguments must be integers"
 - Non-numeric inputs: "Both arguments must be numbers"
 - Unknown tools: "Unknown tool: {name}"
+
+## Test using stdio
+
+```sh
+echo '{"jsonrpc": "2.0", "id": 1, "method": "tools/list", "params": {}}'|node server.js
+echo '{"jsonrpc": "2.0", "id": 2, "method": "tools/call", "params": {"name": "add-integers", "arguments": {"a": 5, "b": 3}}}'|node server.js
+
+
+```

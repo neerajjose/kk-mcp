@@ -9,7 +9,7 @@ import {
 
 const server = new Server(
   {
-    name: "basic-mcp-server",
+    name: "basic-mcp-calc-server",
     version: "1.0.0",
   },
   {

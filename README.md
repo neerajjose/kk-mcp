@@ -5,7 +5,7 @@ This repository contains a collection of example Model Context Protocol (MCP) se
 ## Table of Contents
 
 - [google-calendar-mcp](#google-calendar-mcp)
-- [node-basic-mcp-server](#node-basic-mcp-server)
+- [node-basic-mcp-calc-server](#node-basic-mcp-calc-server)
 - [ollama-mcp](#ollama-mcp)
 - [ollamademo](#ollamademo)
 - [postman-mcp](#postman-mcp)
@@ -36,7 +36,7 @@ The server uses Google OAuth for authentication and communicates with the Google
 
 ---
 
-## node-basic-mcp-server
+## node-basic-mcp-calc-server
 
 **Purpose:**  
 A minimal MCP server example that implements a single tool: integer addition.
@@ -52,7 +52,7 @@ The server listens for MCP requests over STDIO, validates input, performs intege
 **Setup:**  
 - Run with `node server.js`
 - Test with `npm test`
-- See [node-basic-mcp-server/README.md](node-basic-mcp-server/README.md) for details
+- See [node-basic-mcp-calc-server/README.md](node-basic-mcp-calc-server/README.md) for details
 
 ---
 

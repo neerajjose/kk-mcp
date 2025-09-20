@@ -1,10 +1,10 @@
 {
-  "name": "basic-mcp-server",
+  "name": "basic-mcp-calc-server",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "basic-mcp-server": "./server.js"
+    "basic-mcp-calc-server": "./server.js"
   },
   "scripts": {
     "test": "node test.js"
